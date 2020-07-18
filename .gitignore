@@ -1,0 +1,17 @@
+# Ignore dependencies
+drupalweb/vendor/
+
+# Ignore configuration files
+drupalweb/sites/*/settings*.php
+drupalweb/sites/*/services*.yml
+
+# Ignore paths
+drupalweb/*/files
+drupalweb/*/private
+
+# Ignore SimpleTest
+drupalweb/simpletest
+
+# Ignore global
+drupalweb/.idea
+Logs
